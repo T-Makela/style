@@ -1,2 +1,0 @@
-# style
-Created with CodeSandbox
