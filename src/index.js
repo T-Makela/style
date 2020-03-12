@@ -1,14 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+const customStyle = {
+  color: "red",
+  fontSize: "20px",
+  border: "1px solid black"
+};
+
+customStyle.color = "blue";
+
 ReactDOM.render(
-  <div>
-    <h1 className="heading">Favourite Foods</h1>
-    <ul>
-      <li> Pizza </li>
-      <li> Potaattisalaatti </li>
-      <li> Pinaatti-Rebecca </li>
-    </ul>
-  </div>,
+  <h1 style={customStyle}>Hello World!</h1>,
   document.getElementById("root")
 );
